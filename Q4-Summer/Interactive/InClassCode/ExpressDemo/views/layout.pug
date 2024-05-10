@@ -1,0 +1,23 @@
+doctype html 
+html 
+    head 
+        title Express Demo 
+        link(rel="stylesheet", href="/css/site.css")
+    body 
+        header 
+            nav 
+                a(href="./", class="navbar") 
+                    div Home
+                a(href="./features", class="navbar") 
+                    div Features
+                a(href="./", class="navbar")
+                    img(class="logo", src="/images/melting-face.png", alt="Logo")
+                a(href="/bulldogs", class="navbar")
+                    div Bulldogs
+                a(href="/no", class="navbar")
+                    div About us
+            div(class="bar")
+        section(class="content")
+            block layout-content
+        footer 
+            p Copyright Alex Bates &copy; 2022

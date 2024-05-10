@@ -1,0 +1,12 @@
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\UnitTestingPractice.deps.json
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\UnitTestingPractice.dll
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\UnitTestingPractice.pdb
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.csproj.AssemblyReference.cache
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.AssemblyInfoInputs.cache
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.AssemblyInfo.cs
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.csproj.CoreCompileInputs.cache
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.dll
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\refint\UnitTestingPractice.dll
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\UnitTestingPractice.pdb
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\ref\UnitTestingPractice.dll

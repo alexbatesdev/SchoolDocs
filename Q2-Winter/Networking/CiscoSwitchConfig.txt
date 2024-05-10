@@ -1,0 +1,150 @@
+! VLANs for Floor3 switch ----
+
+enable
+configure terminal
+hostname Floor3
+
+!Create VLANs
+
+vlan 31
+name HR-VLAN-31
+exit
+
+vlan 32
+name MGMT-VLAN-32
+exit
+
+vlan 21
+name IT-VLAN-21
+exit
+
+vlan 11
+name DEV-VLAN-11
+exit
+
+! configure ports/interfaces
+int f0/1
+switchport mode access
+switchport access vlan 31
+exit
+int f0/2
+switchport mode access
+switchport access vlan 31
+exit
+int f0/3
+switchport mode access
+switchport access vlan 32
+exit
+int f0/4
+switchport mode access
+switchport access vlan 32
+end
+copy run start
+
+! VLANs for Floor2 switch ----
+
+enable
+configure terminal
+hostname Floor2
+
+!Create VLANs
+
+vlan 31
+name HR-VLAN-31
+exit
+
+vlan 32
+name MGMT-VLAN-32
+exit
+
+vlan 21
+name IT-VLAN-21
+exit
+
+vlan 11
+name DEV-VLAN-11
+exit
+
+! configure ports/interfaces
+int f0/1
+switchport mode access
+switchport access vlan 21
+exit
+int f0/2
+switchport mode access
+switchport access vlan 21
+exit
+
+! configure trunk
+int f0/4
+switchport mode trunk
+switchport trunk allowed vlan 11,21
+exit
+
+! Configure new Gigabit Connection
+configure terminal
+interface GigabitEthernet0/1
+switchport mode access
+switchport access vlan 21
+end
+copy run start
+
+! VLANs for Floor1 switch ----
+
+enable
+configure terminal
+hostname Floor1
+
+!Create VLANs
+
+vlan 31
+name HR-VLAN-31
+exit
+
+vlan 32
+name MGMT-VLAN-32
+exit
+
+vlan 21
+name IT-VLAN-21
+exit
+
+vlan 11
+name DEV-VLAN-11
+exit
+
+! configure ports/interfaces
+int f0/1
+switchport mode access
+switchport access vlan 11
+exit
+int f0/2
+switchport mode access
+switchport access vlan 11
+exit
+int f0/3
+switchport mode access
+switchport access vlan 11
+exit
+
+
+! configure trunk
+int f0/4
+switchport mode trunk
+switchport trunk allowed vlan 11,21
+exit
+
+! add it pc
+int f0/5
+switchport mode access
+switchport access vlan 21
+exit
+
+
+! Configure new Gigabit Connection
+configure terminal
+interface GigabitEthernet0/1
+switchport mode access
+switchport access vlan 11
+end
+copy run start

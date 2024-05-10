@@ -1,0 +1,73 @@
+html {
+    background: rgb(19,55,101);
+    background: linear-gradient(180deg, rgba(19,55,101,1) 0%, rgba(122,1,38,1) 100%);
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+
+p, h2, h3 {
+    margin: 0;
+    display: inline-block;
+}
+
+div.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+div.card {
+    background-color: #30303e;
+    border: solid 1px #808088;
+}
+
+.nav {
+    background-color: #30303e;
+    border-bottom: 1px solid #808088;
+}
+
+.nav div a {
+    color: white;
+}
+
+.form {
+    height: 190px;
+}
+
+.form-update {
+    height: 210px;
+}
+
+.form-delete {
+    height: 90px;
+}
+
+.form, .form-update{
+    padding-bottom: 15px;
+    border-bottom: solid 1px #808088;
+    margin-bottom: 15px;
+}
+
+.form *, .form-update *, .form-delete * {
+    display: block;
+}
+
+#logout-button {
+    margin-left: 10px;
+}
+
+#user-form {
+    margin-left: 20px;
+}
+
+#user-form * {
+    display: block;
+}
+
+#user-form span * {
+    display: inline-block;
+}

@@ -1,0 +1,11 @@
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\bin\Debug\IteratorCompositionHomework.exe.config
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\bin\Debug\IteratorCompositionHomework.exe
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\bin\Debug\IteratorCompositionHomework.pdb
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.csproj.AssemblyReference.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.csproj.SuggestedBindingRedirects.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.Form1.resources
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.Properties.Resources.resources
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.csproj.GenerateResource.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.csproj.CoreCompileInputs.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.exe
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\IteratorCompositionHomework\obj\Debug\IteratorCompositionHomework.pdb

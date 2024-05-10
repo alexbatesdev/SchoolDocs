@@ -1,0 +1,15 @@
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.csproj.AssemblyReference.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.AssemblyInfoInputs.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.AssemblyInfo.cs
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.csproj.CoreCompileInputs.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\bin\Debug\net6.0\CorpRest_DataIntegration.exe
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\bin\Debug\net6.0\CorpRest_DataIntegration.deps.json
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\bin\Debug\net6.0\CorpRest_DataIntegration.runtimeconfig.json
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\bin\Debug\net6.0\CorpRest_DataIntegration.dll
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\bin\Debug\net6.0\CorpRest_DataIntegration.pdb
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.dll
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\refint\CorpRest_DataIntegration.dll
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.pdb
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\CorpRest_DataIntegration.genruntimeconfig.cache
+C:\Users\mbates\Documents\School Docs\Q9 - Fall\Software Design Principles\SoftwareDesignPrinciple\CorpRest_DataIntegration\obj\Debug\net6.0\ref\CorpRest_DataIntegration.dll

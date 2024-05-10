@@ -1,0 +1,12 @@
+// MongoDB Playground
+
+use('animals');
+
+
+
+//db.animals.updateMany({}, {$set: {numberOfLegs: 4}})
+db.animals.find({'species.name': {$in:["Cat", "Monkey"]}})
+
+db.animals.update({'species.name': "Dragonfly"}, {$set: {numberOfLegs: 6}})
+
+db.animals.find({})

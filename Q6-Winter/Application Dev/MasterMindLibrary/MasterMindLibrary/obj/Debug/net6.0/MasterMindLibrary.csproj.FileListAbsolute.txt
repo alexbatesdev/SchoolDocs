@@ -1,0 +1,12 @@
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\bin\Debug\net6.0\MasterMindLibrary.deps.json
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\bin\Debug\net6.0\MasterMindLibrary.dll
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\bin\Debug\net6.0\MasterMindLibrary.pdb
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.csproj.AssemblyReference.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.AssemblyInfoInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.AssemblyInfo.cs
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.csproj.CoreCompileInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.dll
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\refint\MasterMindLibrary.dll
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\MasterMindLibrary.pdb
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\MasterMindLibrary\MasterMindLibrary\obj\Debug\net6.0\ref\MasterMindLibrary.dll

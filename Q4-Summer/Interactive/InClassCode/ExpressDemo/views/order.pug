@@ -1,0 +1,18 @@
+extends layout 
+
+block layout-content 
+    div(class="order")
+        form(action="", method="post")
+            h1 Create an Order
+            div
+                p Name: 
+                input(type="text", placeholder="Your name" name="name")
+                p Email: 
+                input(type="text", placeholder="Email" name="email")
+                p Phone: 
+                input(type="text", placeholder="Phone" name="phone")
+                p Address: 
+                input(type="text", placeholder="Address" name="address")
+            input(type="submit", value="Submit")
+    //- Yes I know this monkey gets in the way on mobile, but I really like it
+    img(src="/images/monky.png", alt="Monkey thanking you for your purchase", class="monky")

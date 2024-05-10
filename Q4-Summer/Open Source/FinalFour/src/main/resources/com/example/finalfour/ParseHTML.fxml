@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalfour.ParseHTML">
+   <children>
+      <Button fx:id="urlSubmit" layoutX="274.0" layoutY="309.0" mnemonicParsing="false" onAction="#onParseHTML" text="Submit" />
+      <TextField fx:id="urlInput" layoutX="226.0" layoutY="268.0" promptText="URL here" />
+      <Label layoutX="226.0" layoutY="38.0" text="HTML Parser">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="output" layoutX="0" layoutY="0" visible="false" wrapText="true" />
+      <Label fx:id="lookat" layoutX="320.0" layoutY="183.0" text="Look at the console" visible="false" />
+   </children>
+</AnchorPane>

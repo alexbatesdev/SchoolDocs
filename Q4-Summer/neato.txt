@@ -1,0 +1,386 @@
+Synthesizing 6/10 solutions
+
+=======
+
+
+## Introduction
+
+This is a game about a group of people who are trying to survive in a post-apocalyptic wasteland.
+
+## Story
+
+The story is about a group of people who are trying to survive in a post-apocalyptic wasteland.
+
+## Goal
+
+The goal is to survive and to find a way to survive.
+
+## Characters
+
+The characters are the people who are trying to survive.
+
+## Environment
+
+The environment is the wasteland.
+
+## Gameplay
+
+The gameplay is about survival.
+
+## Credits
+
+The credits are for the art and sound.
+
+## License
+
+The license is for the code.
+
+## Contributing
+
+The contributing is for the code.
+
+## Tests
+
+The tests are for the code.
+
+## Questions
+
+The questions are for the code.
+
+## Issues
+
+The issues are for the code.
+
+## Changelog
+
+The changelog is for the code.
+
+## License
+
+The license is for the code.
+
+## Contributing
+
+The contributing is for the code.
+
+## Tests
+
+The tests are for the code.
+
+## Questions
+
+The questions are for the code.
+
+## Issues
+
+The issues are for the code.
+
+## Changelog
+
+The changelog is for the code.
+
+## License
+
+The license is for the code.
+
+## Contributing
+
+The contributing is for the code.
+
+## Tests
+
+The tests are for the code.
+
+## Questions
+
+The questions are for the code.
+
+## Issues
+
+The issues are for the code.
+
+## Changelog
+
+The changelog is for the code.
+
+## License
+
+The license is for the code.
+
+## Contributing
+
+The contributing is for the code.
+
+## Tests
+
+The tests are for the code.
+
+## Questions
+
+The questions are for the code.
+
+## Issues
+
+The issues are for the code.
+
+## Changelog
+
+The changelog is for the code.
+
+## License
+
+The license is for the code.
+
+## Contributing
+
+The contributing is for the code.
+
+## Tests
+
+The tests are for
+
+=======
+
+
+## Introduction
+
+This is a game about the Steeds and Steel II: Revengeance.
+
+## Rules
+
+### Steeds
+
+Steeds are the main characters in the game. They are the main protagonists of the game.
+
+### Steel
+
+Steel is the enemy of the game.
+
+### Steel II
+
+Steel II is the enemy of the game.
+
+### Steel III
+
+Steel III is the enemy of the game.
+
+### Steel IV
+
+Steel IV is the enemy of the game.
+
+### Steel V
+
+Steel V is the enemy of the game.
+
+### Steel VI
+
+Steel VI is the enemy of the game.
+
+### Steel VII
+
+Steel VII is the enemy of the game.
+
+### Steel VIII
+
+Steel VIII is the enemy of the game.
+
+### Steel IX
+
+Steel IX is the enemy of the game.
+
+### Steel X
+
+Steel X is the enemy of the game.
+
+### Steel XI
+
+Steel XI is the enemy of the game.
+
+### Steel XII
+
+Steel XII is the enemy of the game.
+
+### Steel XIII
+
+Steel XIII is the enemy of the game.
+
+### Steel XIV
+
+Steel XIV is the enemy of the game.
+
+### Steel XV
+
+Steel XV is the enemy of the game.
+
+### Steel XVI
+
+Steel XVI is the enemy of the game.
+
+### Steel XVII
+
+Steel XVII is the enemy of the game.
+
+### Steel XVIII
+
+Steel XVIII is the enemy of the game.
+
+### Steel XIX
+
+Steel XIX is the enemy of the game.
+
+### Steel XX
+
+Steel XX is the enemy of the game.
+
+### Steel XXI
+
+Steel XXI is the enemy of the game.
+
+### Steel XXII
+
+Steel XXII is the enemy of the game.
+
+### Steel XXIII
+
+Steel XXIII is the enemy of the game.
+
+### Steel XXIV
+
+Steel XXIV is the enemy of the game.
+
+### Steel XXV
+
+Steel XXV is the enemy of the game.
+
+### Steel XXVI
+
+Steel XXVI is the enemy of the game.
+
+### Steel XXVII
+
+Steel XXVII is the enemy of the game
+
+=======
+
+
+## Introduction
+
+This is a game where you control a horse and try to defeat the enemies.
+
+## Story
+
+You are a horse and you are going to defeat the enemies.
+
+## Controls
+
+Use the arrow keys to move the horse.
+
+## Credits
+
+Made by [@josuehdez](https://twitter.com/josuehdez)
+
+## License
+
+This is a [MIT license](LICENSE.md)
+
+## Contributing
+
+This project is open-source. You can contribute by making a pull request or by sending a pull request directly to the [repository](
+
+=======
+
+
+## Summary
+
+This is a remake of the original game Steeds and Steel II: Revengeance.
+
+## Story
+
+The game is a sequel to the original game Steeds and Steel. The story is similar to the original game, but the game is a little different.
+
+The story is about
+
+=======
+
+
+## Introduction
+
+This is a game about a group of people who are trying to survive in a post-apocalyptic world.
+
+## Rules
+
+1. Each player is given a random name and a random color.
+2. The goal is to survive and
+
+=======
+
+
+## Introduction
+
+This is a game where you control a steel steppe horse and must defeat the enemies in the battle.
+
+## Controls
+
+The controls are very simple.
+
+- **W**: Move forward
+- **A**: Move left
+- **S**: Move backward
+- **D**: Move right
+- **Space**: Jump
+- **Left Click**: Attack
+- **Right Click**: Use item
+- **Escape**: Pause
+
+## Map
+
+The map is a 2D grid of tiles.
+
+## Tiles
+
+The tiles are represented by numbers.
+
+- **0**: Empty tile
+- **1**: Grass tile
+- **2**: Stone tile
+- **3**: Water tile
+- **4**: Sand tile
+- **5**: Mountain tile
+- **6**: Forest tile
+- **7**: Snow tile
+- **8**: Desert tile
+- **9**: Swamp tile
+- **10**: Lava tile
+- **11**: Swamp tile
+- **12**: Lava tile
+- **13**: Swamp tile
+- **14**: Lava tile
+- **15**: Swamp tile
+- **16**: Lava tile
+- **17**: Swamp tile
+- **18**: Lava tile
+- **19**: Swamp tile
+- **20**: Lava tile
+- **21**: Swamp tile
+- **22**: Lava tile
+- **23**: Swamp tile
+- **24**: Lava tile
+- **25**: Swamp tile
+- **26**: Lava tile
+- **27**: Swamp tile
+- **28**: Lava tile
+- **29**: Swamp tile
+- **30**: Lava tile
+- **31**: Swamp tile
+- **32**: Lava tile
+- **33**: Swamp tile
+- **34**: Lava tile
+- **35**: Swamp tile
+- **36**: Lava tile
+- **37**: Swamp tile
+- **38**: Lava tile
+- **39**: Swamp tile
+- **40**: Lava tile
+- **41**: Swamp tile
+- **42**: Lava tile
+- **

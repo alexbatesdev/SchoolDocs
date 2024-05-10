@@ -1,0 +1,23 @@
+1. Kanban is agile at its most simple. What is there to do? What are we doing? What is done?
+ - The most important thing is to not have a bunch of "doing" items, otherwise that means there may be a productivity blockage
+
+2. The project went alright, I think we should have been able to do more, but I'm pretty proud of what we got
+
+3. I really like how informal it is, you can kinda just get to work right away as long as you take a minute to set up the trello
+A downside is that someone can kinda just do nothing without much social pressure due to meetings.
+Usually people want at least a little progress between scrum meetings, but with kanban there's less of this pressure.
+
+4.Henry
+- They worked on the horizontal and vertical checks, but did it wrong so we had to rewrite the functions entirely
+- They didn't contribute at all
+- 0%, they tried to write a function that would have been like 5% or so, but it didn't work
+
+Domenico
+- They worked on the token counting function at the end of the game
+- They got very little done
+- 5%
+
+Alexis
+- Together Alexis and I made 95% of the project
+- Good
+- 47.5%

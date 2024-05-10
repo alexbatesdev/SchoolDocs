@@ -1,0 +1,14 @@
+extends layout 
+
+block layout-content 
+    h1 Users 
+    each user in users
+        unless user.userID == loggedInUser.userID
+            div(class="userMenuItem")
+                p Username: #{user.username}
+                p IsAdmin: #{user.isAdmin}
+                unless user.isAdmin
+                    a(href="/u/promote?user=" + user.userID) Promote
+                else
+                    a(href="/u/demote?user=" + user.userID) Demote
+                a(href="/u/delete?user=" + user.userID) Delete

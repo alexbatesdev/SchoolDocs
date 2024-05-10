@@ -1,0 +1,26 @@
+Words:
+aaa fear mates gag egg add foo sap yay tot look meet took seer seep ate bar eat fit aaabbbzzz bbbaaazzz abzzbabaz bazzababz warrior aedor eiruw aa bb cacccdaabc cdcccaddbc dcdddbccad bdbbbaddcb bdbcadbbdc abaadcbbda babcdabbac cacdbaccad dcddabccad cacccbaadb bbcdcbcbdd bcbadcbbca 
+
+Exact Isomorphs:
+0 1 2 3 4: aedor eiruw mates 
+0 0 1: gag tot yay 
+0 1 1: add egg foo 
+0 1 2: ate bar eat fit sap 
+0 1 1 2: look meet seep seer took 
+0 0 0 1 1 1 2 2 2: aaabbbzzz abzzbabaz bazzababz bbbaaazzz 
+0 0: aa bb 
+0 0 0 0 0 1 1 1 2 3: bdbbbaddcb cacccdaabc cdcccaddbc dcdddbccad 
+0 0 0 0 1 1 1 2 2 3: abaadcbbda babcdabbac bcbadcbbca bdbcadbbdc cacccbaadb cacdbaccad dcddabccad 
+
+Loose Isomorphs:
+1 1 1 1 1: aedor eiruw mates 
+1 2: add egg foo gag tot yay 
+1 1 1: ate bar eat fit sap 
+1 1 2: look meet seep seer took 
+3 3 3: aaabbbzzz abzzbabaz bazzababz bbbaaazzz 
+2: aa bb 
+1 1 3 5: bdbbbaddcb cacccdaabc cdcccaddbc dcdddbccad 
+1 2 3 4: abaadcbbda babcdabbac bcbadcbbca bdbcadbbdc cacccbaadb cacdbaccad dcddabccad 
+
+Non-Isomorphs:
+aaa bbcdcbcbdd fear warrior 

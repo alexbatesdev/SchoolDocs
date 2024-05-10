@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+<component>
+<style>
+position:absolute;background-color:Red;width:100px;height:15px;left:10px;top:30px;
+</style>
+<text>
+Default Text
+</text>
+</component>
+<component type='checkbox'>
+<style>
+position:absolute;left:10px;top:60px;
+</style>
+<text>
+Default Text
+</text>
+</component>
+<component type='button'>
+<style>
+position:absolute;left:10px;top:90px;
+</style>
+<text>
+Default Text
+</text>
+</component>
+<component type='button'>
+<style>
+position:absolute;left:10px;top:120px;
+</style>
+<text>
+different text
+</text>
+</component>
+<component>
+<style>
+position:absolute;background-color:Blue;width:100px;height:15px;left:100px;top:150px;
+</style>
+<text>
+Default Text
+</text>
+</component>
+</components>

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+div.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+div.card {
+    width: 25vw;
+    background-color: #d3d3d9;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+div.display {
+
+}
+
+div.add-form {
+    height: 200px;
+    border-top: solid 1px black;
+    margin-top: 10px;
+}
+
+div.add-form * {
+    display: block;
+
+}
+
+p, h2, h3 {
+    margin: 0;
+    display: inline-block;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: solid 1px #6f6f7f;
+    background-color: #d3d3d9;
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.nav div {
+    height: 100%;
+}
+
+div.nav-left {
+    padding-top: 25px;
+    height: calc(100% - 25px);
+}
+
+div.nav-left div {
+    margin-left: 20px;
+}
+
+.nav div a {
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    height: calc(100% - 25px);
+    width: 75px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.nav div a:hover {
+    color: #6d1010;
+    background-color: #808088;
+}
+
+.current {
+    justify-self: flex-start;
+    margin-left: 20px;
+}

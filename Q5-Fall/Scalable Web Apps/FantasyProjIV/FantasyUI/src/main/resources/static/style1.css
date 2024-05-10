@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/3981658.jpg");
+    background-size: contain;
+    height: 100vh;
+}
+
+.nav {
+    background-color: #d3d3d9;
+}
+
+div.card {
+    background-color: #d3d3d9;
+}

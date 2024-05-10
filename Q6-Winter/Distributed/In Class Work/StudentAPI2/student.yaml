@@ -1,0 +1,180 @@
+openapi: 3.0.3
+info:
+  title: Neumont Students
+  description: |
+    This api provides information about students, 
+    its gonna have all the CRUD and levels we could imagine
+  version: 1.0.0
+paths:
+  # Multiple student operations
+  /students:
+    get:
+      summary: Get all students
+      description: Retrieves all students and displays them
+      operationId: get-students
+      responses: 
+        "200":
+          description: "OK"
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/studentList"
+    post:
+      summary: Add 1 or more students
+      description: Adds 1 or more students to the database
+      operationId: post-students
+      requestBody:
+        description: Student object that needs to be added
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/studentList"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/studentList"
+        "405":
+          description: "Invalid input"
+    patch:
+      summary: Update 1 or more students
+      description: Updates 1 or more students in the database
+      operationId: patch-students
+      requestBody:
+        description: Student object that needs to be updated
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/studentList"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/studentList"
+        "405":
+          description: "Invalid input"
+  # Operations on 1 specific student by id
+  /students/{studentId}:
+    parameters:
+      - name: studentId
+        in: path
+        description: ID of student to return
+        required: true
+        schema:
+          type: integer
+          format: int64
+    get:
+      summary: Get a student by id
+      description: Retrieves a student by id and displays it
+      operationId: get-student
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/student"
+        "404":
+          description: "Student not found"
+    put:
+      summary: Update a student by id
+      description: Updates a student by id
+      operationId: put-student
+      requestBody:
+        description: Student object that needs to be updated
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/student"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/student"
+        "404":
+          description: "Student not found"
+        "405":
+          description: "Invalid input"
+    patch:
+      summary: Update a student by id
+      description: Updates a student by id
+      operationId: patch-student
+      requestBody:
+        description: Student object that needs to be updated
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/student"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/student"
+        "404":
+          description: "Student not found"
+        "405":
+          description: "Invalid input"
+    delete:
+      summary: Delete a student by id
+      description: Deletes a student by id
+      operationId: delete-student
+      responses:
+        "200":
+          description: "OK"
+        "404":
+          description: "Student not found"
+        "405":
+          description: "Invalid input"
+components:
+  parameters:
+    studentId:
+      name: studentId
+      in: 'path'
+      description: ID of student to return
+      required: true
+      schema:
+        type: integer
+        format: int64
+    student:
+      name: student
+      in: 'query'
+      description: Student object that needs to be added
+      required: true
+      schema:
+        $ref: "#/components/schemas/student"
+    studentList:
+      name: studentList
+      in: 'query'
+      description: Student object that needs to be added
+      required: true
+      schema:
+        $ref: "#/components/schemas/studentList"
+  schemas:
+    student:
+      type: object
+      properties:
+        name:
+          type: string
+        age:
+          type: integer
+        id:
+          type: integer
+        gpa:
+          type: number
+          format: float
+    studentList:
+      type: array
+      items:
+        $ref: "#/components/schemas/student"

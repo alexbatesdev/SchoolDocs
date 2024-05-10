@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterMind", "MasterMind\MasterMind.csproj", "{0F3E29F6-36DA-401C-8B95-8D19EB1D92AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterMindLibrary", "MasterMindLibrary\MasterMindLibrary.csproj", "{636F1C7B-1508-4402-A758-471C3C4B0393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F3E29F6-36DA-401C-8B95-8D19EB1D92AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3E29F6-36DA-401C-8B95-8D19EB1D92AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3E29F6-36DA-401C-8B95-8D19EB1D92AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3E29F6-36DA-401C-8B95-8D19EB1D92AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636F1C7B-1508-4402-A758-471C3C4B0393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636F1C7B-1508-4402-A758-471C3C4B0393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636F1C7B-1508-4402-A758-471C3C4B0393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636F1C7B-1508-4402-A758-471C3C4B0393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C1D743-DB1C-4CB2-A42A-CAE86123576E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+body {
+    background-image: url("img/bg.png");
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#container {
+    width: 800px;
+    margin: 15px 0px 0 400px;
+    padding: 5px;
+    background-image: url("img/bg.gif");
+}
+
+article, footer, .box {
+    padding: 5px;
+}
+
+p {
+    font-size: large;
+    font-weight: 500;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    background-image: url("img/brick.png");
+    color: white;
+}
+
+nav  li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2px;
+    width: 180px;
+    text-align: center;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.welcome {
+    display: inline-block;
+    font-size: 35px;
+}
+
+section #content, #image {
+    display: inline-block;
+    width: 380px;
+}
+
+section#image {
+    position: absolute;
+    top: 600px;
+}
+
+#lavalamps {
+    display: inline-block;
+    width: 580px;
+}

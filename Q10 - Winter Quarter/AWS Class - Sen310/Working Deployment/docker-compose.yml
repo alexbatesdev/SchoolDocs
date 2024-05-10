@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  working_test:
+    build: .
+    image: working_test:1.0

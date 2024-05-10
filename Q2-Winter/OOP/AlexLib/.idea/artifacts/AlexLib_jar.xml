@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AlexLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AlexLib_jar</output-path>
+    <root id="archive" name="AlexLib.jar">
+      <element id="module-output" name="AlexLib" />
+    </root>
+  </artifact>
+</component>

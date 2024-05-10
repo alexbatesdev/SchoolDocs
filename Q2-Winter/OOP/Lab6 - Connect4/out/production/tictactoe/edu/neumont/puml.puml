@@ -1,0 +1,4 @@
+@startuml
+Main->Board
+Board->Game
+@enduml

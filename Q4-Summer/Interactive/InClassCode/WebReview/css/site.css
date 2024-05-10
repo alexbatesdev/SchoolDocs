@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url("https://tsutigers.com/images/2020/11/6/1863L.jpg");
+    background-repeat: repeat;
+    background-size: 100px;
+}
+h1 {
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    font-size: larger;
+    border: solid 1px black;
+    background-color: aliceblue;
+    
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: fixed;
+    background-color: black;
+    border: solid red 2px;
+    left: 45vw;
+    top: 45vh;
+}

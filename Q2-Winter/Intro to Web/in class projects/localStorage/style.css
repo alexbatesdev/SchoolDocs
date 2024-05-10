@@ -1,0 +1,20 @@
+.btn {
+    background-color: #baf;
+    color: #624;
+    width: 75px;
+    border: 5px solid #624;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fa7;
+}

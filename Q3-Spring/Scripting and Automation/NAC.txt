@@ -1,0 +1,111 @@
+Academic Calendar: 
+Winter Quarter 2021 --- --------------------------------------------------
+Jan 6 --- First Day of Class
+Jan 6 - Feb 5 --- Sprint 1
+Jan 6 - Jan 8 --- Add/Drop Period Sprint 1
+Jan 11 - Jan 15 --- Withdrawal Period "W"
+Jan 19 - Jan 22 --- Withdrawal Period "WS/WU"
+Jan 18 --- Dr. Martin Luther King, Jr. Day (no class)
+Feb 5 --- Grading Day (no class except Enterprise Project)
+Feb 8 - Mar 12 --- Sprint 2
+Feb 8 - Feb 10 --- Course Adjustment Period Sprint 2
+Feb 11 - Feb 18 --- Withdrawal Period "W" for Sprint 2 only
+Feb 15 --- President's Day (no class)
+Feb 19 - Feb 24 --- Withdrawal Period "WS/WU" for Sprint 2 only
+Mar 12 --- Last Day of Class
+Spring Quarter 2021 --- --------------------------------------------------
+Mar 29 --- First Day of Class
+Mar 29 - Apr 30 --- Sprint 1
+Mar 29 - Mar 31 --- Add/Drop Period Sprint 1
+Apr 1 - Apr 7 --- Withdrawal Period "W"
+Apr 8 - Apr 13 --- Withdrawal Period "WS/WU"
+Apr 30 --- Grading Day (no class except Enterprise Projects)
+May 3 - Jun 4 --- Sprint 2
+May 3 - May 5 --- Course Adjustment Period Sprint 2
+May 6 - May 12 --- Withdrawal Period "W" for Sprint 2 only
+May 13 - May 18 --- Withdrawal Period "WS/WU" for Sprint 2 only
+May 31 --- Memorial Day (no class)
+Jun 4 --- Last Day of Class
+Summer Quarter 2021 --- --------------------------------------------------
+Jun 28 --- First Day of Class
+Jun 28 - Jul 30 --- Sprint 1
+Jun 28 - Jun 30 --- Add/Drop Period Sprint 1
+Jul 1 - Jul 8 --- Withdrawal Period "W"
+Jul 5 --- Independence Day Observed (no class)
+Jul 9 - Jul 14 --- Withdrawal Period "WS/WU"
+Jul 23 --- Pioneer Day Observed (no class)
+Jul 30 --- Grading Day (no class except Enterprise Project)
+Aug 2 - Sep 2 --- Sprint 2
+Aug 2 - Aug 4 --- Course Adjustment Period Sprint 2
+Aug 5 - Aug 11 --- Withdrawal Period "W" for Sprint 2 only
+Aug 12 - Aug 17 --- Withdrawal Period "WS/WU" for Sprint 2 only
+Sep 2 --- Last Day of Class
+Fall Quarter 2021 --- --------------------------------------------------
+Sep 27 - Oct 1 --- Freshman Orientation Week
+Oct 4 --- First Day of Class
+Oct 4 -Nov 5 --- Sprint 1
+Oct 4 - Oct 6 --- Add/Drop Period Sprint 1
+Oct 7 - Oct 13 --- Withdrawal Period "W"
+Oct 14 - Oct 19 --- Withdrawal Period "WS/WU"
+Nov 5 --- Grading Day (no class except Enterprise Project)
+Nov 8 - Dec 10 --- Sprint 2
+Nov 8 - Nov 10 --- Course Adjustment Period Sprint 2
+Nov 11 - Nov 17 --- Withdrawal Period "W" for Sprint 2 only
+Nov 18 - Nov 23 --- Withdrawal Period "WS/WU" for Sprint 2 only
+Nov 25 - 26 --- Thanksgiving Break (no class)
+Dec 10 --- Last Day of Class
+Winter Quarter 2022 --- --------------------------------------------------
+Jan 5 --- First Day of Class
+Jan 5 - Feb 4 --- Sprint 1
+Jan 5 - Jan 7 --- Add/Drop Period Sprint 1
+Jan 8 - Jan 14 --- Withdrawal Period "W"
+Jan 17 --- Dr. Martin Luther King, Jr. Day (no class)
+Jan 15 - Jan 21 --- Withdrawal Period "WS/WU"
+Feb 4 --- Grading Day (no class except Enterprise Project)
+Feb 7- Mar 11 --- Sprint 2
+Feb 7 - Feb 9 --- Course Adjustment Period Sprint 2
+Feb 10- Feb 16 --- Withdrawal Period "W" for Sprint 2 only
+Feb 21 --- President's Day (no class)
+Feb 17 - Feb 23 --- Withdrawal Period "WS/WU" for Sprint 2 only
+Mar 11 --- Last Day of Class
+Spring Quarter 2022 --- --------------------------------------------------
+Mar 28 --- First Day of Class
+Mar 28 - Apr 29 --- Sprint 1
+Mar 28 - Mar 30 --- Add/Drop Period Sprint 1
+Mar 31 - Apr 6 --- Withdrawal Period "W" 
+Apr 7 - Apr 12 --- Withdrawal Period "WS/WU" 
+Apr 29 --- Grading Day (no class except Enterprise Project)
+May 2 - Jun 3 --- Sprint 2
+May 2 - May 4 --- Course Adjustment Period Sprint 2
+May 5 - May 11 --- Withdrawal Period "W" for Sprint 2 only
+May 12 - May 17 --- Withdrawal Period "WS/WU" for Sprint 2 only
+May 30 --- Memorial Day (no class)
+Jun 3 --- Last Day of Class
+Summer Quarter 2022 --- --------------------------------------------------
+Jun 27 --- First Day of Class
+Jun 27- Jul 29 --- Sprint 1
+Jun 27 - Jun 29  --- Add/Drop Period Sprint 1
+Jun 30 - Jul 7 --- Withdrawal Period "W"
+Jul 4 --- Independence Day (no class)
+Jul 8 - Jul 13 --- Withdrawal Period "WS/WU"
+Jul 25 --- Pioneer Day Observed (no class)
+Jul 29 --- Grading Day (no class except Enterprise Project)
+Aug 1 - Sep 1 --- Sprint 2
+Aug 1 - Aug 3 --- Course Adjustment Period Sprint 2
+Aug 4 - Aug 10 --- Withdrawal Period "W" for Sprint 2 only
+Aug 11 - Aug 16 --- Withdrawal Period "WS/WU" for Sprint 2 only
+Sep 1 --- Last Day of Class
+Fall Quarter 2022 --- --------------------------------------------------
+Sep 23 - Sep 30 --- Freshman Orientation Week
+Oct 3 --- First Day of Class
+Oct  3- Nov 4 --- Sprint 1
+Oct 3 - Oct 5 --- Add/Drop Period Sprint 1
+Oct 6 - Oct 12  --- Withdrawal Period "W"
+Oct 13 - Oct 18 --- Withdrawal Period "WS/WU"
+Nov 4 --- Grading Day (no class except Enterprise Project)
+Nov 7 - Dec 9 --- Sprint 2
+Nov 7 - Nov 9 --- Course Adjustment Period Sprint 2
+Nov 10 - Nov 16 --- Withdrawal Period "W" for Sprint 2 only
+Nov 17 - 22 --- Withdrawal Period "WS/WU" for Sprint 2 only
+Nov 24-25 --- Thanksgiving Break (no class)
+Dec 9 --- Last Day of Class

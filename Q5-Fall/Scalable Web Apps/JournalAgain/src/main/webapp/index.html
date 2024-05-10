@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Journal Entries</title>
+    <script>
+        function createEntry() {
+            // Get the values from the form
+            var id = document.getElementById("entry_id").value;
+            var text = document.getElementById("entry_content").value;
+            var entry = {"id": id, "text": text};
+            //AJAX
+
+            //Create a new XMLHttpRequest object
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("POST", "/journal:");
+            xmlHttp.setRequestHeader("Content-Type", "application/json");
+            xmlHttp.onreadystatechange = function() {
+                console.log(this.status);
+                if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+                    alert("Entry created");
+                    getEntries();
+                }
+            }
+            xmlHttp.send(JSON.stringify(entry));
+        }
+
+        //Get all entries
+        function getEntries() {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function() {
+                if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+                    var entries = JSON.parse(this.responseText);
+                    renderEntries(entries);
+                }
+            }
+            xmlHttp.open("GET", "/journal", true);
+            xmlHttp.send();
+        }
+
+        //Render entries
+        function renderEntries(entries) {
+            var entry_list = document.getElementById("entry_list");
+            entry_list.innerHTML = "";
+            //Loop through entries
+            for (var entry of entries) {
+                var entry_html = "<li>" + entry.id + ": " + entry.text + "</li>";
+                entry_list.innerHTML += entry_html;
+            }
+        }
+
+        window.onload = function() {
+            getEntries();
+        }
+
+    </script>
+</head>
+<body>
+
+<div>
+    <ul id="entry_list">
+
+    </ul>
+</div>
+<div>
+    <label for="entry_id">id</label>
+    <input type="text" id="entry_id" name="entry_id" required>
+
+    <label for="entry_content">Content</label>
+    <input type="text" id="entry_content" name="entry_content" required>
+
+    <button onclick="createEntry()">Add entry</button>
+</div>
+
+
+
+</body>
+</html>

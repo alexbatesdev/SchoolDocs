@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.alex.javafxlogin.Home">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="welcomeText" layoutX="230.0" layoutY="33.0" text="Welcome Home, {NAME}" />
+      <Button fx:id="logout" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onLogout" text="Log out" />
+   </children>
+</AnchorPane>

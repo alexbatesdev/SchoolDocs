@@ -1,0 +1,56 @@
+extends layout 
+
+block layout-content 
+    h1 Register 
+    form(action="/u/register", method="post") 
+        label(for="username") Username
+        input(type="text", name="username", placeholder="Username")
+        br
+        label(for="age") Age
+        input(type="number", name="age", placeholder="Age")
+        br
+        label(for="email") Email
+        input(type="text", name="email", placeholder="Email")
+        br
+        label(for="password") Password
+        input(type="password", name="password", placeholder="Password")
+        br
+        label(for="confirmPassword") Confirm Password
+        input(type="password", name="confirmPassword", placeholder="Confirm Password")
+        br
+        label(for="question1") What is your favorite color?
+        div(class="radioGroup")
+            input(type="radio", name="question1", value="Red")
+            label(for="question1") Red
+            br
+            input(type="radio", name="question1", value="Green")
+            label(for="question1") Green
+            br
+            input(type="radio", name="question1", value="Blue")
+            label(for="question1") Blue
+        br
+        label(for="question2") What is your favorite animal?
+        div(class="radioGroup")
+            input(type="radio", name="question2", value="Dog")
+            label(for="question2") Dog
+            br
+            input(type="radio", name="question2", value="Cat")
+            label(for="question2") Cat
+            br
+            input(type="radio", name="question2", value="Bird")
+            label(for="question2") Bird
+        br
+        label(for="question3") What is your favorite food?
+        div(class="radioGroup")
+            input(type="radio", name="question3", value="Pizza")
+            label(for="question3") Pizza
+            br
+            input(type="radio", name="question3", value="Pasta")
+            label(for="question3") Pasta
+            br
+            input(type="radio", name="question3", value="Cake")
+            label(for="question3") Cake
+        br
+        div(class="buttonGroup")
+            input(type="submit", value="Register", class="submit")
+            a(href="/u/login") Login

@@ -1,0 +1,30 @@
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.exe
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.deps.json
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.runtimeconfig.json
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.pdb
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.csproj.AssemblyReference.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.AssemblyInfoInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.AssemblyInfo.cs
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.csproj.CoreCompileInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\refint\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.pdb
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.genruntimeconfig.cache
+C:\Users\mbates\OneDrive\School Docs\Q6-Winter\Application Dev\BigOTires\BigOTires\obj\Debug\net6.0\ref\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.exe
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.deps.json
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.runtimeconfig.json
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\bin\Debug\net6.0\BigOTires.pdb
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.csproj.AssemblyReference.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.AssemblyInfoInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.AssemblyInfo.cs
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.csproj.CoreCompileInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\refint\BigOTires.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.pdb
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\BigOTires.genruntimeconfig.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 1\Algorithms\BigOTires\BigOTires\obj\Debug\net6.0\ref\BigOTires.dll

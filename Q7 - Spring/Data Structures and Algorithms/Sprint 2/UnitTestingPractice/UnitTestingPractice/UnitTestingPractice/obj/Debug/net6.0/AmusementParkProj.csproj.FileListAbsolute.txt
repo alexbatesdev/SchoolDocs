@@ -1,0 +1,36 @@
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.deps.json
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.dll
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.pdb
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.csproj.AssemblyReference.cache
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.AssemblyInfoInputs.cache
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.AssemblyInfo.cs
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.csproj.CoreCompileInputs.cache
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.dll
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\refint\AmusementParkProj.dll
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.pdb
+C:\Classes\CSC252\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\ref\AmusementParkProj.dll
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.deps.json
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.dll
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.pdb
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.csproj.AssemblyReference.cache
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.AssemblyInfoInputs.cache
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.AssemblyInfo.cs
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.csproj.CoreCompileInputs.cache
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.dll
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\refint\AmusementParkProj.dll
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.pdb
+C:\Classes\CSC252\A\UnitTesting\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\ref\AmusementParkProj.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.deps.json
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\bin\Debug\net6.0\AmusementParkProj.pdb
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.csproj.AssemblyReference.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.AssemblyInfoInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.AssemblyInfo.cs
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.csproj.CoreCompileInputs.cache
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\refint\AmusementParkProj.dll
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\AmusementParkProj.pdb
+C:\Users\mbates\OneDrive\School Docs\Q7 - Spring\Data Structures and Algorithms\Sprint 2\UnitTestingPractice\UnitTestingPractice\UnitTestingPractice\obj\Debug\net6.0\ref\AmusementParkProj.dll

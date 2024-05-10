@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/xp.css"> -->
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body id="body">
+    <div id="icons">
+        <div id="recycle_bin" class="icon">
+            <img src="img/Recycle_Bin1.png"/>
+            <p>Recycle Bin</p>
+        </div>
+        <a href="https://www.microsoft.com/en-us/download/internet-explorer.aspx?=form=MT004I" target="_blank" class="icon">
+            <div id="internet_explorer" class="icon">
+            <img src="img/Internet_Explorer_6_logo.png"/>
+            <p>Internet Explorer</p>
+            </div>
+        </a>
+        <a href="https://classicreload.com/win9x-3d-pinball-space-cadet.html" target="_blank" class="icon">
+            <div id="pinball" class="icon">
+                <img src="img/pinball.png"/>
+                <p>Space Cadet 3D Pinball</p>
+            </div>   
+        </a>
+    </div>
+    <div id="today_window" class="window">
+        <div id="today_window_header" class="window_header">
+            <p>Today's Weather</p>
+            <div id="exit">X</div>
+        </div>
+        <div id="window_tabs">
+            <div id="tab1" class="window_tab active_window_tab">Today</div>
+            <div id="tab2" class="window_tab">Now</div>
+            <div id="tab3" class="window_tab">Expanded</div>
+        </div>
+        <div id="white_box">
+            <div id="content">
+                Please input city
+            </div>
+            <div id="submit_div">
+                <label>City, State Abbreviation, Country Abbreviation:</label><br />
+                <input type="text" id="my_textbox" placeholder="Salt Lake City, UT, US" />
+                <button id="submit_btn" class="btn">Submit</button>
+            </div>
+        </div>
+        <div id="today_window_resizer" class="resizer"></div>
+    </div>
+
+
+    <nav id="taskbar">
+        <div id="start"><a id="secret" href="?s=y"></a></div>
+        <div id="tabs">
+            <a id="today_tab" class="tab active" href="#">Today's weather</a>
+            <a id="five_tab" class="tab" href="five-day.html">5 Day Forecast</a>
+        </div>
+        <div id="notif_tray"></div>
+    </nav>
+    <script id="script" src="scripts/script.js"></script>
+</body>
+</html>

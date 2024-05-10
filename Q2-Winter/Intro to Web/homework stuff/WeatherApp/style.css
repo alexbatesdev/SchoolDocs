@@ -1,0 +1,266 @@
+* {
+    z-index: 1;
+}
+
+body {
+    background-image: url("img/bliss.png");
+    background-size: 1710px;
+    background-repeat: no-repeat;
+    background-position-y: -215px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.window {
+    position: absolute;
+    z-index: 7;
+    background-color: #ece9d8;
+    border: 2px solid #0053ee;
+    border-top: none;
+    border-radius: 5px 5px 0 0;
+    text-align: left;
+    left: 35%;
+    top: 20%;
+    width: 400px;
+    min-width: 400px;
+    min-height: 285px;
+    overflow: hidden;
+}
+
+#white_box {
+    padding: 5px;
+    background: white;
+    margin: 15px;
+    margin-top: 0;
+    border: solid 1px #8f8f8f;
+    position: relative;
+    min-height: 193px;
+    min-width: 357px;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#window_tabs {
+    margin: 5px 0 -3.5px 15px;
+    height: 25px;
+    width: 369px;
+    min-width: 367px;
+}
+
+.window_tab {
+    display: inline;
+    height: 23px;
+    border: 1px solid #8f8f8f;
+    padding: 0 2px;
+    background-color: #d4d4d4;
+    margin-right: -5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    user-select: none;
+}
+
+.active_window_tab {
+    border-bottom-color: transparent;
+    background-color: #fff;
+}
+
+.window_header {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-image: linear-gradient(#0053ee, #0062ff);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-top: none;
+    background-image: url("img/xp_bg.png");
+    background-repeat:repeat-x;
+    background-size: contain;
+} 
+
+.window_header p {
+    margin: 0;
+}
+
+#exit {
+    cursor: pointer;
+    background-color: #e53326;
+    border: solid 1px white;
+    padding: 2px;
+    padding-bottom: 5px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+#exit:hover {
+    background-color: #eb4f4a;
+}
+
+.resizer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("img/grab.png");
+    background-size: contain;
+    cursor: se-resize;
+}
+
+#taskbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 38px;
+    display: flex;
+    justify-content: left;
+    color: white;
+    background-image: url("img/xp_bg.png");
+    background-repeat:repeat-x;
+    background-size: contain;
+    font-weight: lighter;
+}
+
+#tabs {
+    padding: 2px 2px 2px 5px;
+    margin-left: 5px;
+    border-left: dotted 3px #044ab5;
+}
+
+#start {
+    width: 112px;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    background-image: url("img/XPButton.png");
+    background-size: cover;
+    position: relative;
+}
+
+#start:hover {
+    background-image: url("img/XPButtonHover.png");
+}
+
+#start p {
+    margin: 0;
+}
+
+#notif_tray {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100px;
+    background-color: #68e5ff59;
+    border-left: #32415e solid 2px;
+    text-align: center;
+}
+
+#date_time {
+    font-size: small;
+    margin: auto;
+    font-weight: lighter;
+}
+
+.tab {
+    background-color: #3089ef;
+    border: solid 1px #0062ff;
+    border-radius: 3px;
+    padding: 5px;
+    width: 120px;
+    display: table-cell;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tab:hover, .active {
+    background-color: #0b76f0;
+}
+
+#icon {
+    background-color: #69d2fc;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #8f8f8f;
+    border-radius: 3px;
+}
+
+#startup_screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+    /* background-image: url("img/startup.gif"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#startup_btn {
+    position: fixed;
+    top: 49%;
+    left: 48%;
+    right: 48%;
+    z-index: 9;
+}
+
+#secret {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#icons {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.icon {
+    text-align: center;
+    width: 70px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon p {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 0;
+    width: 60px;
+}

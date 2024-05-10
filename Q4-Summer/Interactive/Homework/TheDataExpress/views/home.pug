@@ -1,0 +1,17 @@
+extends layout 
+
+block layout-content
+    script(src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js")
+    if loggedInUser
+        h1 Welcome home, #{loggedInUser.username}
+        unless loggedInUser.age
+            p You don't have an age set, please update your info on the account page
+        unless loggedInUser.questions[0][1]
+            p You don't have some or all questions set, please update your info on the account page
+    else 
+        h1 Welcome home, Stranger
+        p Please login or register to vote!
+    canvas(id="myChart1", width="400", height="400")
+    canvas(id="myChart2", width="400", height="400")
+    canvas(id="myChart3", width="400", height="400")
+    script(src="/js/site.js")

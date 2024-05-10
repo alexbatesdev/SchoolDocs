@@ -1,0 +1,87 @@
+extends layout 
+
+block layout-content
+    if loggedInUser
+        h1 Account 
+        form(action="/u/account", method="post") 
+            b Username:
+            p #{loggedInUser.username}
+            br
+            label(for="age") Age
+            input(type="number", name="age", placeholder="Age", value=loggedInUser.age)
+            br
+            label(for="email") Email
+            input(type="text", name="email", placeholder="Email", value=loggedInUser.email)
+            br
+            label(for="password") Password
+            input(type="password", name="password", placeholder="Password")
+            br
+            label(for="confirmPassword") Confirm Password
+            input(type="password", name="confirmPassword", placeholder="Confirm Password")
+            br
+            label(for="question1") What is your favorite color?
+            div(class="radioGroup")
+                if loggedInUser.questions[0][1] == "Red"
+                    input(type="radio", name="question1", value="Red", checked)
+                else
+                    input(type="radio", name="question1", value="Red")
+                label(for="question1") Red 
+                br
+                if loggedInUser.questions[0][1] == "Green"
+                    input(type="radio", name="question1", value="Green", checked)
+                else
+                    input(type="radio", name="question1", value="Green")
+                label(for="question1") Green 
+                br
+                if loggedInUser.questions[0][1] == "Blue"
+                    input(type="radio", name="question1", value="Blue", checked)
+                else
+                    input(type="radio", name="question1", value="Blue")
+                label(for="question1") Blue
+            br
+            label(for="question2") What is your favorite animal?
+            div(class="radioGroup")
+                if loggedInUser.questions[1][1] == "Dog"
+                    input(type="radio", name="question2", value="Dog", checked)
+                else
+                    input(type="radio", name="question2", value="Dog")
+                label(for="question2") Dog
+                br
+                if loggedInUser.questions[1][1] == "Cat"
+                    input(type="radio", name="question2", value="Cat", checked)
+                else
+                    input(type="radio", name="question2", value="Cat")
+                label(for="question2") Cat
+                br
+                if loggedInUser.questions[1][1] == "Bird"
+                    input(type="radio", name="question2", value="Bird", checked)
+                else
+                    input(type="radio", name="question2", value="Bird")
+                label(for="question2") Bird
+            br
+            label(for="question3") What is your favorite food?
+            div(class="radioGroup")
+                if loggedInUser.questions[2][1] == "Pizza"
+                    input(type="radio", name="question3", value="Pizza", checked)
+                else
+                    input(type="radio", name="question3", value="Pizza")
+                label(for="question3") Pizza 
+                br
+                if loggedInUser.questions[2][1] == "Cake"
+                    input(type="radio", name="question3", value="Cake", checked)
+                else
+                    input(type="radio", name="question3", value="Cake")
+                label(for="question3") Green 
+                br
+                if loggedInUser.questions[2][1] == "Ice Cream"
+                    input(type="radio", name="question3", value="Ice Cream", checked)
+                else
+                    input(type="radio", name="question3", value="Ice Cream")
+                label(for="question3") Blue
+            br
+            div(class="buttonGroup")
+                input(type="submit", value="Update", class="submit")
+                a(href="/u/delete?user=" + loggedInUser.userID) Delete Account
+    else
+        h1 Account 
+        p Please login or register

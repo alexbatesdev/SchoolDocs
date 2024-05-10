@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.alex.javafxlogin.HelloController">
+   <children>
+      <Button fx:id="login" layoutX="226.0" layoutY="340.0" mnemonicParsing="false" onAction="#onLogin" text="Log in" />
+      <Button fx:id="register" layoutX="317.0" layoutY="340.0" mnemonicParsing="false" onAction="#onRegister" text="Register" />
+      <PasswordField fx:id="password" layoutX="226.0" layoutY="267.0" />
+      <TextField fx:id="username" layoutX="226.0" layoutY="211.0" />
+      <Label layoutX="226.0" layoutY="192.0" text="Username: " />
+      <Label layoutX="226.0" layoutY="250.0" text="Password" />
+      <ImageView fitHeight="150.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>

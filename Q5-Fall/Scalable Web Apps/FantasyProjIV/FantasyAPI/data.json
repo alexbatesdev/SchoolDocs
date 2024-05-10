@@ -1,0 +1,24 @@
+{
+  "people" : [ {
+    "id" : 1,
+    "name" : "Denji",
+    "isDeceased" : false,
+    "description" : "The main character of the series. Denji is a half devil hybrid made up of his best friend Pochita the chainsaw devil's heart. (EDIT)"
+  }, {
+    "id" : 2,
+    "name" : "Power",
+    "isDeceased" : true,
+    "description" : "The most powerful blood fiend ever!"
+  } ],
+  "devils" : [ {
+    "id" : 1,
+    "name" : "Pochita",
+    "description" : "Pochita is the Chainsaw Devil, the devil feared most by other devils. He was gravely injured in a battle against the four horsemen of the apocalypse, after which he was saved and befriended by Denji. After Denji died Pochita became his heart, making the two become chainsaw man",
+    "type" : "Chainsaw"
+  } ],
+  "locations" : [ {
+    "id" : 1,
+    "name" : "The Human World",
+    "description" : "The human world, also known as earth is the land where human's are from. This is modern day earth, but its  history is a little different than ours. When a devil dies in hell it is reborn in the human world, and when it dies in the human world it returns to hell"
+  } ]
+}

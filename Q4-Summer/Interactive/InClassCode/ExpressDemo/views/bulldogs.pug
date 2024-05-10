@@ -1,0 +1,15 @@
+extends layout 
+
+block layout-content 
+    h1(class="bulldogs") Bulldogs!
+    div(class="bd-flex")
+        each bulldog in bulldogs
+            div(class="bulldogBox")
+                span=bulldog.Name
+                br
+                span Age: #{bulldog.Age}
+                br
+                span Colors: 
+                ul 
+                    each color in bulldog.Colors 
+                        li=color

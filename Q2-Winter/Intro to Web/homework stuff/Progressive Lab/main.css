@@ -1,0 +1,136 @@
+:root {
+    --background-color: rgb(2, 4, 32);
+    --text-color: white;
+    --container: #182846;
+    --header-color: #091938;
+    --tab-color: #354363;
+
+    --border-radius: 15px;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 2vh auto 0 auto;
+    border-radius: var(--border-radius);
+    background-color: var(--container);
+    padding: 0;
+}
+
+#main, #plans {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+@media all and (max-width: 850px) {
+    #plans {flex-direction: column;
+        
+    }
+}
+
+.box {
+    /* border: 1px solid rgb(255, 255, 255); */
+    flex: 1;
+    padding: 2%;
+}
+
+#favorites {
+    flex: 1.5;
+}
+
+#home {
+    flex: .5;
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 1vh 0;
+}
+
+h2 {
+    font-size: 3vw;
+    margin: 1vh 0;
+}
+
+article {
+    padding: 2%;
+}
+
+footer {
+    padding: 2%;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+nav  li {
+    display: inline-block;
+    margin-right: 2vw;
+    padding: 1%;
+    background-color: var(--tab-color);
+    width: 100px;
+    text-align: center;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+@media all and (max-width: 600px) {
+    nav li {
+        width: 100%;
+        margin-top: .2vh;
+    }
+}
+
+li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+li a:visited {
+    color: var(--text-color);
+}
+
+.welcome {
+    margin: 1vh 0 0 0;
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+#header {
+    background-color: var(--header-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    padding: 3%;
+    padding-bottom: 0;
+}
+
+img {
+    border: 12px var(--header-color) solid;
+    border-radius: var(--border-radius);
+}
+
+#image {
+    text-align: center;
+}
+
+#title {
+    padding: 0 0 0 2%;
+}
+

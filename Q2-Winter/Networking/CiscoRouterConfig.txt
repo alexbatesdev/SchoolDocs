@@ -1,0 +1,165 @@
+! Configure router 1
+!
+enable
+configure terminal
+no ip domain-lookup
+hostname SLC-RTR1
+!
+! configure ports
+!
+interface GigabitEthernet0/0
+description dev-vlan-11
+ip address 172.21.5.1 255.255.255.192
+no shut
+exit
+!
+interface GigabitEthernet0/1
+description it-vlan-21
+ip address 172.21.5.65 255.255.255.192
+no shut
+exit
+!
+! Configure fiber port
+!
+interface g0/0/0
+description SLC-SANDY Net
+ip address 10.1.1.1 255.255.255.252
+no shut
+exit
+!
+! configure static routes
+!
+!ip route 192.168.11.0 255.255.255.0 10.1.1.2
+!ip route 192.168.12.0 255.255.255.0 10.1.1.2
+!
+!ip route 172.21.5.0 255.255.255.255.192 g0/0
+!ip route 172.21.5.64 255.255.255.255.192 g0/1
+!
+! configure OSPF routes
+!
+router ospf 1
+network 172.21.5.0 0.0.0.63 area 1
+network 172.21.5.64 0.0.0.63 area 1
+network 10.1.1.0 0.0.0.3 area 1
+network 10.1.1.8 0.0.0.3 area 1
+network 10.1.1.12 0.0.0.3 area 1
+end
+copy run start
+!
+
+
+
+
+! Configure Sandy Router
+!
+enable
+configure terminal
+no ip domain-lookup
+hostname SANDY-RTR1
+!
+! configure ports
+!
+interface g0/0
+description SANDY LAN
+ip address 192.168.11.1 255.255.255.0
+no shut
+exit
+!
+interface g0/0/0
+description Sandy-SLC
+ip address 10.1.1.2 255.255.255.252
+no shut
+exit
+!
+interface g0/1/0
+description Sandy-Provo
+ip address 10.1.1.5 255.255.255.252
+exit
+no shut
+!
+! configure static routes
+!
+!ip route 172.21.5.0 255.255.255.192 10.1.1.1
+!ip route 172.21.5.64 255.255.255.192 10.1.1.1
+!
+!ip route 192.168.12.0 255.255.255.0 10.1.1.6
+!
+! configure OSPF routes
+!
+router ospf 1
+network 192.168.11.0 0.0.0.255 area 1
+network 10.1.1.20 0.0.0.3 area 1
+network 10.1.1.0 0.0.0.3 area 1
+network 10.1.1.4 0.0.0.3 area 1
+end
+copy run start
+!
+
+
+
+
+! Configure Provo Router
+!
+enable
+configure terminal
+no ip domain-lookup
+hostname PROVO-RTR1
+!
+! configure ports
+!
+interface g0/0
+description Provo Lan
+ip address 192.168.12.1 255.255.255.0
+no shut
+exit
+!
+interface g0/0/0
+description Provo-Sandy
+ip address 10.1.1.6 255.255.255.252
+no shut
+exit
+!
+! configure static routes
+!
+!ip route 172.21.5.0 255.255.255.192 10.1.1.5
+!ip route 172.21.5.64 255.255.255.192 10.1.1.5
+!ip route 192.168.11.0 255.255.255.0 10.1.1.5
+!
+! configure OSPF routes
+!
+router ospf 1
+network 192.168.12.0 0.0.0.255 area 1
+network 10.1.1.8 0.0.0.3 area 1
+network 10.1.1.16 0.0.0.3 area 1
+network 10.1.1.4 0.0.0.3 area 1
+end
+copy run start
+!
+
+
+
+
+! Configure Ogden Router
+!
+enable
+configure terminal
+no ip domain-lookup
+hostname OGDEN-RTR1
+!
+! configure ports
+!
+interface g0/0
+description Ogden Lan
+ip address 192.168.13.1 255.255.255.0
+no shut
+!
+! configure OSPF routes
+!
+router ospf 1
+network 192.168.13.0 0.0.0.255 area 1
+network 10.1.1.20 0.0.0.3 area 1
+network 10.1.1.12 0.0.0.3 area 1
+network 10.1.1.16 0.0.0.3 area 1
+end
+copy run start
+!

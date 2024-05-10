@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx1.WhackBoardController">
+   <children>
+      <GridPane fx:id="gridPane0" gridLinesVisible="true" layoutX="104.0" layoutY="69.0" prefHeight="255.0" prefWidth="365.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="img00" fitHeight="92.0" fitWidth="121.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img10" fitHeight="88.0" fitWidth="124.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img20" fitHeight="88.0" fitWidth="124.0" layoutX="132.0" layoutY="8.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img01" fitHeight="88.0" fitWidth="124.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img11" fitHeight="88.0" fitWidth="124.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@MoleUp.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img21" fitHeight="88.0" fitWidth="124.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img02" fitHeight="88.0" fitWidth="124.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img12" fitHeight="88.0" fitWidth="124.0" layoutX="254.0" layoutY="8.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+            <ImageView fx:id="img22" fitHeight="88.0" fitWidth="124.0" layoutX="132.0" layoutY="180.0" onMouseClicked="#onClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@MoleDown.PNG" />
+               </image></ImageView>
+         </children>
+      </GridPane>
+      <Label fx:id="scoreLabel" layoutX="10.0" layoutY="10.0" text="Score: " />
+      <Button fx:id="results" layoutX="261.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#resultsClicked" text="Results" visible="false" />
+      <Label fx:id="timeUp" layoutX="104.0" layoutY="68.0" prefHeight="255.0" prefWidth="365.0" style="-fx-background-color: #420690;" text="Time's Up!!" textFill="RED" visible="false">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

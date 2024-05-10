@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalfour.ShokoSays">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label text="Shoko Says..." textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="prompt" text="Label">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <GridPane prefHeight="300.0" prefWidth="400.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="topLeft" fitHeight="150.0" fitWidth="180.0" onMouseClicked="#onClick" pickOnBounds="true">
+               <image>
+                  <Image url="@Red.png" />
+               </image></ImageView>
+            <ImageView fx:id="topRight" fitHeight="150.0" fitWidth="180.0" onMouseClicked="#onClick" pickOnBounds="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@Green.png" />
+               </image></ImageView>
+            <ImageView fx:id="botLeft" fitHeight="150.0" fitWidth="180.0" onMouseClicked="#onClick" pickOnBounds="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@Yellow.png" />
+               </image></ImageView>
+            <ImageView fx:id="botRight" fitHeight="150.0" fitWidth="180.0" onMouseClicked="#onClick" pickOnBounds="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@Blue.png" />
+               </image></ImageView>
+         </children>
+      </GridPane>
+      <Button fx:id="NextScene" mnemonicParsing="false" onAction="#onClickNextScene" text="Next" visible="false" />
+   </children>
+</VBox>

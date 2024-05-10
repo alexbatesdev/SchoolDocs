@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chainsaw Man API</title>
+    <link href="/style.css" type="text/css" rel="stylesheet">
+    <link href="/style3.css" type="text/css" rel="stylesheet">
+    <script src="/script3.js" defer></script>
+</head>
+<body>
+<div class="nav">
+    <div class="nav-left">
+        <h3 class="current">
+            Current Persistence: MONGO
+        </h3>
+        <div id="login-form">
+            <input type="text" placeholder="username" id="username" />
+            <input type="password" placeholder="password" id="password" />
+            <button onclick="login()">Login</button>
+        </div>
+    </div>
+    <div>
+        <a href="index.html">
+            <h3>JSON</h3>
+        </a>
+        <a href="index2.html">
+            <h3>SQL</h3>
+        </a>
+        <a href="index3.html">
+            <h3>MONGO</h3>
+        </a>
+    </div>
+</div>
+<div class="card" id="user-form">
+    Create User
+    <label for="create-username">Username</label>
+    <input type="text" id="create-username" />
+
+    <label for="create-password">Password</label>
+    <input type="password" id="create-password" />
+
+    <span>
+        <input type="checkbox" id="create-admin">
+        <label for="create-admin">Admin</label>
+    </span>
+
+
+    <button onclick="createUser()">Create User</button>
+
+</div>
+<div class="flex">
+    <div class="card">
+        <div class="form">
+            Create Person
+            <label for="person_id">id</label>
+            <input type="text" id="person_id" name="person_id" required>
+
+            <label for="person_name">Name</label>
+            <input type="text" id="person_name" name="person_name" required>
+
+            <label for="person_is_deceased">Is deceased?</label>
+            <input type="checkbox" id="person_is_deceased" name="person_is_deceased" required>
+
+            <label for="person_description">Description</label>
+            <input type="text" id="person_description" name="person_description" required>
+
+            <button onclick="createPerson()">Add Person</button>
+        </div>
+        <div class="form-update">
+            Update Person
+            <label for="person_id-update">id</label>
+            <input type="text" id="person_id-update" name="person_id-update" required>
+
+            <label for="person_name">Name</label>
+            <input type="text" id="person_name-update" name="person_name-update" required>
+
+            <label for="person_is_deceased">Is deceased?</label>
+            <input type="checkbox" id="person_is_deceased-update" name="person_is_deceased-update" required>
+
+            <label for="person_description">Description</label>
+            <input type="text" id="person_description-update" name="person_description-update" required>
+
+            <button onclick="updatePerson()">Update Person</button>
+        </div>
+        <div class="form-delete">
+            Delete Person
+            <label for="person_id-delete">id</label>
+            <input type="text" id="person_id-delete" name="person_id-delete" required>
+
+            <button onclick="deletePerson()">Delete Person</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="form">
+            Create Devil
+
+            <label for="devil_id">id</label>
+            <input type="text" id="devil_id" name="devil_id" required>
+
+            <label for="devil_name">Name</label>
+            <input type="text" id="devil_name" name="devil_name" required>
+
+            <label for="devil_type">Type</label>
+            <input type="text" id="devil_type" name="devil_type" required>
+
+            <label for="devil_description">Description</label>
+            <input type="text" id="devil_description" name="devil_description" required>
+
+            <button onclick="createDevil()">Add Devil</button>
+        </div>
+        <div class="form-update">
+            Update Devil
+            <label for="devil_id-update">id</label>
+            <input type="text" id="devil_id-update" name="devil_id-update" required>
+
+            <label for="devil_name">Name</label>
+            <input type="text" id="devil_name-update" name="devil_name-update" required>
+
+            <label for="devil_type">Type</label>
+            <input type="text" id="devil_type-update" name="devil_type-update" required>
+
+            <label for="devil_description">Description</label>
+            <input type="text" id="devil_description-update" name="devil_description-update" required>
+
+            <button onclick="updateDevil()">Update Devil</button>
+        </div>
+        <div class="form-delete">
+            Delete Devil
+            <label for="devil_id-delete">id</label>
+            <input type="text" id="devil_id-delete" name="devil_id-delete" required>
+
+            <button onclick="deleteDevil()">Delete Devil</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="form">
+            Create Location
+
+            <label for="location_id">id</label>
+            <input type="text" id="location_id" name="location_id" required>
+
+            <label for="location_name">Name</label>
+            <input type="text" id="location_name" name="location_name" required>
+
+            <label for="location_description">Description</label>
+            <input type="text" id="location_description" name="location_description" required>
+
+            <button onclick="createLocation()">Add Location</button>
+        </div>
+        <div class="form-update">
+            Update Location
+            <label for="location_id-update">id</label>
+            <input type="text" id="location_id-update" name="location_id-update" required>
+
+            <label for="location_name-update">Name</label>
+            <input type="text" id="location_name-update" name="location_name-update" required>
+
+            <label for="location_description-update">Description</label>
+            <input type="text" id="location_description-update" name="location_description-update" required>
+
+            <button onclick="updateLocation()">Update Location</button>
+        </div>
+        <div class="form-delete">
+            Delete Location
+            <label for="location_id-delete">id</label>
+            <input type="text" id="location_id-delete" name="location_id-delete" required>
+
+            <button onclick="deleteLocation()">Delete Location</button>
+        </div>
+    </div>
+</div>
+<div class="flex">
+    <div class="card"> <!--//Person-->
+        <div id="person_list">
+
+        </div>
+        <!--        //Button next to each row to delete-->
+    </div>
+    <div class="card"> <!--//Devil-->
+        <div id="devil_list">
+
+        </div>
+        <!--        //Button next to each row to delete-->
+    </div>
+    <div class="card"> <!--//Location-->
+        <div id="location_list">
+
+        </div>
+        <!--        //Button next to each row to delete-->
+    </div>
+</div>
+</body>
+</html>

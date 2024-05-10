@@ -1,0 +1,35 @@
+# In class example code for NQueens
+# def nQueens(row):
+#     if (row >= maxRow)
+#         # Store Solution
+#         return True
+#     for col in range(maxCol):
+#         if (isSafe(row, col)):
+#             nQueens(row + 1)
+# If row out of bounds then a solution has been found
+# If the first queen is placed out of bounds then no solution exists
+
+
+# def calculateNQueens(gridSize: int):
+# """Calls the recursive method"""
+# outputArray = []
+# nQueens(0, gridSize, outputArray)
+# return outputArray
+
+
+# def nQueens(row: int, gridSize: int, outputArray: list):
+# """Actual recursive function"""
+# Stop Cases
+#   if row == 0 and col == gridSize
+#   row == gridSize
+# Iterate through columns of current row
+#   if col of row is safe
+#     return nQueens(row+1, gridSize)
+
+
+# def isSafe(row: int, col: int):
+# """Checks if this slot is safe"""
+# Check if safe
+# Get row diff - if row diff = 0 unsafe
+# Get col diff - if col diff = 0 unsafe
+# if both diffs are equal then unsafe
