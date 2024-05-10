@@ -9,3 +9,5 @@ I encourage fellow Neumont students to use these materials as a learning aid. Pl
 
 # Note on Academic Integrity
 I understand the temptation to find quick solutions in a high-pressure academic environment. However, I urge you to respect the principles of academic integrity. This repository should serve as an inspiration or a study guide, not a shortcut to completing your assignments.
+___
+Note: Readme written by AI because I'm lazy when it comes to flowery words
