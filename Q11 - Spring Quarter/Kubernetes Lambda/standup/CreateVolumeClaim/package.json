@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-eks": "^3.583.0",
+    "@kubernetes/client-node": "^0.21.0"
+  }
+}

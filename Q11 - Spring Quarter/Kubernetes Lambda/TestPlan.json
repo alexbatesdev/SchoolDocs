@@ -1,0 +1,90 @@
+{
+    "StartAt": "RunEKSTests",
+    "States": {
+        "CreateEKSCluster": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:CreateEKSCluster",
+            "Next": "WaitForCluster"
+        },
+        "WaitForCluster": {
+            "Type": "Wait",
+            "Seconds": 30,
+            "Next": "CheckClusterStatus"
+        },
+        "CheckClusterStatus": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:CheckClusterStatus",
+            "Next": "IsClusterActive"
+        },
+        "IsClusterActive": {
+            "Type": "Choice",
+            "Choices": [
+                {
+                    "Variable": "$.clusterStatus",
+                    "StringEquals": "ACTIVE",
+                    "Next": "CreateFargateProfile"
+                },
+                {
+                    "Variable": "$.clusterStatus",
+                    "StringEquals": "FAILED",
+                    "Next": "ClusterFailed"
+                }
+            ],
+            "Default": "WaitForCluster"
+        },
+        "ClusterFailed": {
+            "Type": "Fail",
+            "Error": "ClusterCreationFailed",
+            "Cause": "The EKS cluster creation failed."
+        },
+        "CreateFargateProfile": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:CreateFargateProfile",
+            "Next": "GetKubeconfig"
+        },
+        "GetKubeconfig": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:GetKubeconfig",
+            "Next": "InstallEFSCsiDriver"
+        },
+        "InstallEFSCsiDriver": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:InstallEFSCsiDriver"
+        },
+        "CreateKubernetesTestJobs": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2: FILL ME IN"
+        },
+        "WaitForJobs": {
+            "Type": "Wait",
+            "Seconds": 30,
+            "Next": "CheckJobStatus"
+        },
+        "CheckJobStatus": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:CheckJobStatus",
+            "Next": "AreJobsComplete"
+        },
+        "AreJobsComplete": {
+            "Type": "Choice",
+            "Choices": [
+                {
+                    "Variable": "$.body.jobsComplete",
+                    "BooleanEquals": true,
+                    "Next": "DeleteEFSCsiDriverAndResources"
+                }
+            ],
+            "Default": "WaitForJobs"
+        },
+        "DeleteEFSCsiDriverAndResources": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:DeleteEFSCsiDriverAndResources",
+            "Next": "DeleteEKSCluster"
+        },
+        "DeleteEKSCluster": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-west-2:123456789012:function:DeleteEKSCluster",
+            "End": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "StartAt": "DeleteEFSCsiDriverAndResources",
+    "States": {
+      "DeleteEFSCsiDriverAndResources": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-west-2:123456789012:function:DeleteEFSCsiDriverAndResources",
+        "Next": "DeleteEKSCluster"
+      },
+      "DeleteEKSCluster": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-west-2:123456789012:function:DeleteEKSCluster",
+        "End": true
+      }
+    }
+  }
