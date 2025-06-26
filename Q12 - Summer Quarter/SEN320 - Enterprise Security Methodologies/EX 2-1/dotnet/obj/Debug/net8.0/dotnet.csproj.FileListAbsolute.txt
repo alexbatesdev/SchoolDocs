@@ -1,0 +1,5 @@
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-1\dotnet\obj\Debug\net8.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-1\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-1\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfo.cs
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-1\dotnet\obj\Debug\net8.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-1\dotnet\obj\Debug\net8.0\dotnet.sourcelink.json

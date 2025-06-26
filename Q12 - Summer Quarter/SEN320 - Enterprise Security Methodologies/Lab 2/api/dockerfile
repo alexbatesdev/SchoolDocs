@@ -1,0 +1,35 @@
+# Dockerfile written with AI assistance
+# Use the official Golang image as the build image
+FROM golang:1.22.4 as builder
+
+# Set the Current Working Directory inside the container
+WORKDIR /app
+
+# Copy the source from the current directory to the Working Directory inside the container
+COPY . .
+
+# Download all dependencies. Dependencies will be cached if the go.mod and go.sum files are not changed
+RUN go mod download
+
+# Build the Go app with CGO disabled
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /app/main .
+
+# Start a new stage from scratch
+FROM alpine:latest
+
+WORKDIR /root/
+
+# Install necessary packages
+RUN apk add --no-cache libc6-compat
+
+# Copy the Pre-built binary file from the previous stage
+COPY --from=builder /app/main .
+
+# Ensure the main binary is executable
+RUN chmod +x ./main
+
+# Expose port 8080 to the outside world
+EXPOSE 8080
+
+# Command to run the executable
+CMD ["./main"]

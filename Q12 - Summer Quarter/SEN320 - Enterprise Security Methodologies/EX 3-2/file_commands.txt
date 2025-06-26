@@ -1,0 +1,2 @@
+openssl pkeyutl -encrypt -inkey bob_public.pem -pubin -in message.txt -out encrypted_message.bin
+openssl pkeyutl -decrypt -inkey bob_private.pem -in encrypted_message.bin -out decrypted_message.txt

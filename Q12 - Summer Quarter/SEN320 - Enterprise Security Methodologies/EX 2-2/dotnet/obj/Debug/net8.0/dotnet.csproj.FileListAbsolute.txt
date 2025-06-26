@@ -1,0 +1,15 @@
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\bin\Debug\net8.0\dotnet.exe
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\bin\Debug\net8.0\dotnet.deps.json
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\bin\Debug\net8.0\dotnet.runtimeconfig.json
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\bin\Debug\net8.0\dotnet.dll
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\bin\Debug\net8.0\dotnet.pdb
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfoInputs.cache
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfo.cs
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.csproj.CoreCompileInputs.cache
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.sourcelink.json
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.dll
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\refint\dotnet.dll
+c:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.pdb
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\dotnet.genruntimeconfig.cache
+C:\Users\Alex\Documents\My_Documents__\School Docs\Q12 - Summer Quarter\SEN320 - Enterprise Security Methodologies\EX 2-2\dotnet\obj\Debug\net8.0\ref\dotnet.dll

@@ -1,0 +1,14 @@
+# Docker ignore written by an AI assistant
+# Binaries
+main
+
+# Output folders
+/bin
+/pkg
+
+# Go test binaries
+*.test
+*.out
+
+# Logs
+*.log
