@@ -1,5 +1,5 @@
-# Neumont College of Computer Science Coursework Repository
-Welcome to my GitHub repository containing all of my coursework from my time at Neumont College of Computer Science. This collection includes various projects, assignments, and homework that I've completed throughout my academic journey.
+# Neumont University Coursework Repository
+Welcome to my GitHub repository containing all of my coursework from my time at Neumont University. This collection includes various projects, assignments, and homework that I've completed throughout my academic journey.
 
 # Disclaimer
 This repository is intended for educational purposes only. It serves as a personal archive of my learning process and showcases the skills I've developed at Neumont.
