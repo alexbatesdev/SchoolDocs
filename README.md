@@ -1,5 +1,5 @@
 # Neumont University Coursework Repository
-Welcome to my GitHub repository containing all of my coursework from my time at Neumont University. This collection includes various projects, assignments, and homework that I've completed throughout my academic journey.
+Welcome to my GitHub repository containing all of my coursework from my time at Neumont University. This collection includes various projects, assignments, and homework that I've completed throughout my academic journey. I graduated valedictorian with a GPA of 4.0, this repo shows you what it takes to do that! I honestly feel like all I did was show up to class and turn things in on time. I wasn't even trying to get valedictorian until my academic advisor told me I was already on-track to reach it.
 
 # Disclaimer
 This repository is intended for educational purposes only. It serves as a personal archive of my learning process and showcases the skills I've developed at Neumont.
